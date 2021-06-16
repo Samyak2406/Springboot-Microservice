@@ -1,0 +1,18 @@
+package com.example.demo.Service;
+
+import com.example.demo.entity.User;
+import java.util.*;
+
+public class UserService implements UserInterface {
+
+	List<User> list = {
+			new User(),
+	}
+	
+	@Override
+	public User getUser(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

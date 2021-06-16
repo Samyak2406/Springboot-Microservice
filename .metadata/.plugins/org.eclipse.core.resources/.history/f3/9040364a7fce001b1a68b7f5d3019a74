@@ -1,0 +1,9 @@
+package com.example.demo.entity;
+
+
+public class User {
+	
+	private Contact contact;
+	private String name;
+	
+}

@@ -1,0 +1,13 @@
+package com.example.demo.Service;
+
+import com.example.demo.entity.User;
+
+public class UserService implements UserInterface {
+
+	@Override
+	public User getUser(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
