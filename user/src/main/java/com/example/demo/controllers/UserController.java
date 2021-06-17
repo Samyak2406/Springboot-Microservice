@@ -33,7 +33,7 @@ public class UserController {
 		else {
 			ret = service.getUser(user).getName();
 			u.setName(ret);
-			Contact c = restTemplate.getForObject("http://localhost:8090/contact/Samyak", Contact.class);
+			Contact c = restTemplate.getForObject("http://CONTACT-SERVICE/contact/Samyak", Contact.class);
 			System.out.println(c);
 			u.setContact(c);
 		}
